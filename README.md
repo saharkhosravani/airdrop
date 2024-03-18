@@ -80,13 +80,6 @@ link rel="old stylesheet" href="/assets/css/fonts.css" />
 		(function (w, d, s, l, i) {
 			w[l] = w[l] || [];
 			w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-			var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s),
-				dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true;
-			j.src = 'https://tagging.intract.io/gtm.js?id=' + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-N3HRPVPW');
 	</script>
 	<!-- End Google Tag Manager -->
 
